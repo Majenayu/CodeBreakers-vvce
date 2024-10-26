@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Mirror AR Try-On</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.rawgit.com/AR-js-org/AR.js/master/aframe/build/AR.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils"></script>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Mirror</h1>
+        <video id="webcam" autoplay style="display: none;"></video>
+        <canvas id="outputCanvas" width="640" height="480"></canvas>
+        <div class="controls">
+            <button onclick="setupWebcam()">Access Webcam</button>
+            <button onclick="showOptions('shirt')">Try Shirt</button>
+            <button onclick="showOptions('pants')">Try Pants</button>
+        </div>
+        <div id="options" style="display:none;">
+            <h2 id="optionsTitle"></h2>
+            <div id="clothingOptions"></div>
+            <button id="tryButton" style="display:none;" onclick="tryOn()">Try</button>
+            <button id="resetButton" style="display:none;" onclick="resetSelection()">Reset</button>
+        </div>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>
