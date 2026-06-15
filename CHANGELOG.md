@@ -1,4 +1,3 @@
-
 # Changelog
 
 All notable changes to the Digital Mirror project will be documented in this file.
@@ -31,4 +30,3 @@ All notable changes to the Digital Mirror project will be documented in this fil
 
 **Developer:** P G AYUSH RAI (majen)  
 **Institution:** Vidyavardhaka College of Engineering
-```
