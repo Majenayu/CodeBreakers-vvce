@@ -1,24 +1,13 @@
-```markdown
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Stars](https://img.shields.io/github/stars/Majenayu/CodeBreakers-vvce?style=social)
-![Forks](https://img.shields.io/github/forks/Majenayu/CodeBreakers-vvce?style=social)
-![Issues](https://img.shields.io/github/issues/Majenayu/CodeBreakers-vvce)
-![Last Commit](https://img.shields.io/github/last-commit/Majenayu/CodeBreakers-vvce)
-![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)
-![MediaPipe](https://img.shields.io/badge/Powered%20by-MediaPipe-blue)
-![VVCE](https://img.shields.io/badge/Institution-VVCE-orange)
-```
-
 # 👔 Digital Mirror - Virtual Try-On System
 
 <div align="center">
 
-![Project Banner](https://img.shields.io/badge/Virtual-Try--On-orange?style=for-the-badge)
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
 ![JavaScript](https://img.shields.io/badge/JavaScript-46.5%25-yellow?style=flat-square)
 ![CSS](https://img.shields.io/badge/CSS-28.4%25-blue?style=flat-square)
 ![HTML](https://img.shields.io/badge/HTML-25.1%25-red?style=flat-square)
+![MediaPipe](https://img.shields.io/badge/Powered%20by-MediaPipe-blue)
 
 **An AI-powered virtual dressing room experience using real-time pose detection**
 
@@ -35,6 +24,7 @@
 **Institution:** Vidyavardhaka College of Engineering (VVCE)  
 **Build Date:** 2024  
 **Project Type:** Web-based Virtual Try-On Application  
+**Version:** 1.0.0  
 
 ---
 
