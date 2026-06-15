@@ -1,3 +1,16 @@
+```markdown
+![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Stars](https://img.shields.io/github/stars/Majenayu/CodeBreakers-vvce?style=social)
+![Forks](https://img.shields.io/github/forks/Majenayu/CodeBreakers-vvce?style=social)
+![Issues](https://img.shields.io/github/issues/Majenayu/CodeBreakers-vvce)
+![Last Commit](https://img.shields.io/github/last-commit/Majenayu/CodeBreakers-vvce)
+![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow)
+![MediaPipe](https://img.shields.io/badge/Powered%20by-MediaPipe-blue)
+![VVCE](https://img.shields.io/badge/Institution-VVCE-orange)
+```
+
 # 👔 Digital Mirror - Virtual Try-On System
 
 <div align="center">
