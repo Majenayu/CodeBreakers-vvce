@@ -50,3 +50,14 @@ This is an actively evolving project. Production hardening, observability, rate 
 ## License
 
 See the repository license file and package metadata for the authoritative terms.
+## Implementation notes
+
+This repository is a static VVCE-branded site with two page variants (`index.html` and `index1.html`), two stylesheet variants, `script1.js`, and committed image assets. `DroidCam.Setup.6.5.2.exe` is a distributable binary, not a build dependency; review whether it belongs in a release artifact before publishing. The HTML does not expose a server API or persistence layer.
+
+### Verification
+
+Run `python -m http.server 8000` from the repository root and verify both entry points, relative image paths, responsive layouts, and browser-console output. There is no package manager or automated test runner.
+
+### License status
+
+`LICENSE` is the authoritative license for this repository. Asset and binary redistribution rights should be confirmed separately before mirroring the site or shipping the installer.
